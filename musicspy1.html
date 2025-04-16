@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <STYle>
+            .items{
+            border-radius: 20px;
+            margin:auto;
+            padding-inline: 20px ;
+    
+            }
+            img{
+                    height: 300px;
+                    width: 250px;
+                }
+            .container{
+                    display: flex;
+                }
+            fieldset{
+                border-radius: 40px;  
+                text-align: center;
+            }
+            .image-container {
+                    display: flex; 
+                    margin-left: 40px;
+                    margin-right: 40px;
+
+                }
+            .image-item {
+                    text-align: center; 
+                    margin: 10px; 
+                }
+        </STYle>
+        <title> Musicspy </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-image: linear-gradient(black,black ,  gray);">
+       <div>    
+        <h1 style="color: white; text-align: center;">Welcome to Musicspy</h1>   
+        <center>
+        <div style="display: flex; color: white;" >
+        <fieldset>
+            All
+        </fieldset>
+        <fieldset> 
+            Music
+        </fieldset>
+        <fieldset>
+            Prodcast
+        </fieldset>
+        </fieldset>
+        </center>
+    </div>
+
+       <div>
+        <h1 style="color: white;"> 
+          Songs Featuring You Like            
+        </h1>
+        </div>
+    
+        <div class="image-container" style="overflow: auto; scrollbar-width: none;">
+            <div class="image-item" >
+                <img src="Pani Da Rang.jpg" onclick="Pani Da Rang" style="cursor: pointer;">
+                <div class="flex-container" style="flex-direction: column;">
+                    <div class="items" style="border-radius: 20px; background-color: #141414;">
+                    <p>Pani Da Rang</p>
+                </div>
+                <audio controls src="Pani Da Rang.mp3" id="Pani Da Rang"></audio>
+            </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="Phir Bhi Tumko Chaahunga.jpg" onclick="Phir Bhi Tumko Chaahunga" style="cursor: pointer;">
+                    <div class="flex-container" style="flex-direction: column;">
+                        <div class="items" style="border-radius: 20px; background-color: #141414;">
+                        <p>Phir Bhi Tumko Chaahunga</p>
+                    </div>
+                    <br>
+                    </div>
+                    <audio controls src="Phir Bhi Tumko Chaahunga.mp3" id="Phir Bhi Tumko Chaahunga"></audio>
+                </div>
+                    <div class="image-item">
+                        <img src="Rang Lageya.jpg" onclick="Rang Lageya" style="cursor: pointer;">
+                        <div class="flex-container" style="flex-direction: column;">
+                            <div class="items" style="border-radius: 20px; background-color: #141414;">
+                            <p>Rang Lageya</p>
+                        </div>
+                        <br>
+                        </div>
+                        <audio controls src="Rang Lageya.mp3" id="Rang Lageya"></audio>
+                </div>  
+            <div class="image-item">
+                <img src="Sach Keh Raha Hai Deewana.jpg" onclick="Sach Keh Raha Hai Deewana" style="cursor: pointer;">
+                <div class="flex-container" style="flex-direction: column;">
+                    <div class="items" style="border-radius: 20px; background-color: #141414;">
+                    <p>Sach Keh Raha Hai Deewana</p>
+                </div>
+                <br>
+                </div>
+                <audio controls src="Sach Keh Raha Hai Deewana.mp3" id="Sach Keh Raha Hai Deewana"></audio>
+            </div>
+            <div class="image-item">
+                <img src="Tu Hi Re Bombay.jpg" onclick="Tu Hi Re Bombay" style="cursor: pointer;">
+                <div class="flex-container" style="flex-direction: column;">
+                    <div class="items" style="border-radius: 20px; background-color: #141414;">
+                    <p>Tu Hi Re Bombay</p>
+                </div>
+                <br>
+                </div>
+                <audio controls src="Tu Hi Re Bombay.mp3" id="Tu Hi Re Bombay"></audio>
+            </div>
+            
+            </div>
+        </div>
+      <script src="javascript.js"></script>  
+    </body>
+</html>
